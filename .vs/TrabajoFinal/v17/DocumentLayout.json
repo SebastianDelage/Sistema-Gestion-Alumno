@@ -1,0 +1,165 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\seba\\Desktop\\TrabajoFinal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DE17FAD1-BF7B-454D-9FF1-5AEE5FACEDBE}|TrabajoFinal\\TrabajoFinal.csproj|C:\\Users\\seba\\Desktop\\TrabajoFinal\\trabajofinal\\conexionbbdd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE17FAD1-BF7B-454D-9FF1-5AEE5FACEDBE}|TrabajoFinal\\TrabajoFinal.csproj|solutionrelative:trabajofinal\\conexionbbdd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE17FAD1-BF7B-454D-9FF1-5AEE5FACEDBE}|TrabajoFinal\\TrabajoFinal.csproj|C:\\Users\\seba\\Desktop\\TrabajoFinal\\trabajofinal\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE17FAD1-BF7B-454D-9FF1-5AEE5FACEDBE}|TrabajoFinal\\TrabajoFinal.csproj|solutionrelative:trabajofinal\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE17FAD1-BF7B-454D-9FF1-5AEE5FACEDBE}|TrabajoFinal\\TrabajoFinal.csproj|C:\\Users\\seba\\Desktop\\TrabajoFinal\\trabajofinal\\alumnos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE17FAD1-BF7B-454D-9FF1-5AEE5FACEDBE}|TrabajoFinal\\TrabajoFinal.csproj|solutionrelative:trabajofinal\\alumnos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE17FAD1-BF7B-454D-9FF1-5AEE5FACEDBE}|TrabajoFinal\\TrabajoFinal.csproj|c:\\users\\seba\\desktop\\trabajofinal\\trabajofinal\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE17FAD1-BF7B-454D-9FF1-5AEE5FACEDBE}|TrabajoFinal\\TrabajoFinal.csproj|solutionrelative:trabajofinal\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE17FAD1-BF7B-454D-9FF1-5AEE5FACEDBE}|TrabajoFinal\\TrabajoFinal.csproj|C:\\Users\\seba\\Desktop\\TrabajoFinal\\trabajofinal\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DE17FAD1-BF7B-454D-9FF1-5AEE5FACEDBE}|TrabajoFinal\\TrabajoFinal.csproj|solutionrelative:trabajofinal\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE17FAD1-BF7B-454D-9FF1-5AEE5FACEDBE}|TrabajoFinal\\TrabajoFinal.csproj|C:\\Users\\seba\\Desktop\\TrabajoFinal\\trabajofinal\\notas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DE17FAD1-BF7B-454D-9FF1-5AEE5FACEDBE}|TrabajoFinal\\TrabajoFinal.csproj|solutionrelative:trabajofinal\\notas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE17FAD1-BF7B-454D-9FF1-5AEE5FACEDBE}|TrabajoFinal\\TrabajoFinal.csproj|C:\\Users\\seba\\Desktop\\TrabajoFinal\\trabajofinal\\alumnos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DE17FAD1-BF7B-454D-9FF1-5AEE5FACEDBE}|TrabajoFinal\\TrabajoFinal.csproj|solutionrelative:trabajofinal\\alumnos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE17FAD1-BF7B-454D-9FF1-5AEE5FACEDBE}|TrabajoFinal\\TrabajoFinal.csproj|C:\\Users\\seba\\Desktop\\TrabajoFinal\\trabajofinal\\notas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE17FAD1-BF7B-454D-9FF1-5AEE5FACEDBE}|TrabajoFinal\\TrabajoFinal.csproj|solutionrelative:trabajofinal\\notas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE17FAD1-BF7B-454D-9FF1-5AEE5FACEDBE}|TrabajoFinal\\TrabajoFinal.csproj|C:\\Users\\seba\\Desktop\\TrabajoFinal\\trabajofinal\\alumnos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE17FAD1-BF7B-454D-9FF1-5AEE5FACEDBE}|TrabajoFinal\\TrabajoFinal.csproj|solutionrelative:trabajofinal\\alumnos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\seba\\Desktop\\TrabajoFinal\\TrabajoFinal\\Form1.cs",
+              "RelativeDocumentMoniker": "TrabajoFinal\\Form1.cs",
+              "ToolTip": "C:\\Users\\seba\\Desktop\\TrabajoFinal\\TrabajoFinal\\Form1.cs",
+              "RelativeToolTip": "TrabajoFinal\\Form1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T22:15:52.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\seba\\Desktop\\TrabajoFinal\\TrabajoFinal\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "TrabajoFinal\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\seba\\Desktop\\TrabajoFinal\\TrabajoFinal\\Form1.Designer.cs",
+              "RelativeToolTip": "TrabajoFinal\\Form1.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAPoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T22:14:45.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Alumnos.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\seba\\Desktop\\TrabajoFinal\\TrabajoFinal\\Alumnos.Designer.cs",
+              "RelativeDocumentMoniker": "TrabajoFinal\\Alumnos.Designer.cs",
+              "ToolTip": "C:\\Users\\seba\\Desktop\\TrabajoFinal\\TrabajoFinal\\Alumnos.Designer.cs",
+              "RelativeToolTip": "TrabajoFinal\\Alumnos.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T22:14:29.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Notas.cs",
+              "DocumentMoniker": "C:\\Users\\seba\\Desktop\\TrabajoFinal\\TrabajoFinal\\Notas.cs",
+              "RelativeDocumentMoniker": "TrabajoFinal\\Notas.cs",
+              "ToolTip": "C:\\Users\\seba\\Desktop\\TrabajoFinal\\TrabajoFinal\\Notas.cs",
+              "RelativeToolTip": "TrabajoFinal\\Notas.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAlwBwAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T22:00:11.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Notas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\seba\\Desktop\\TrabajoFinal\\TrabajoFinal\\Notas.cs",
+              "RelativeDocumentMoniker": "TrabajoFinal\\Notas.cs",
+              "ToolTip": "C:\\Users\\seba\\Desktop\\TrabajoFinal\\TrabajoFinal\\Notas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TrabajoFinal\\Notas.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T21:27:28.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConexionBBDD.cs",
+              "DocumentMoniker": "C:\\Users\\seba\\Desktop\\TrabajoFinal\\TrabajoFinal\\ConexionBBDD.cs",
+              "RelativeDocumentMoniker": "TrabajoFinal\\ConexionBBDD.cs",
+              "ToolTip": "C:\\Users\\seba\\Desktop\\TrabajoFinal\\TrabajoFinal\\ConexionBBDD.cs",
+              "RelativeToolTip": "TrabajoFinal\\ConexionBBDD.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBoAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T15:00:24.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Alumnos.cs",
+              "DocumentMoniker": "C:\\Users\\seba\\Desktop\\TrabajoFinal\\TrabajoFinal\\Alumnos.cs",
+              "RelativeDocumentMoniker": "TrabajoFinal\\Alumnos.cs",
+              "ToolTip": "C:\\Users\\seba\\Desktop\\TrabajoFinal\\TrabajoFinal\\Alumnos.cs",
+              "RelativeToolTip": "TrabajoFinal\\Alumnos.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAYwD0AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T23:14:01.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Alumnos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\seba\\Desktop\\TrabajoFinal\\TrabajoFinal\\Alumnos.cs",
+              "RelativeDocumentMoniker": "TrabajoFinal\\Alumnos.cs",
+              "ToolTip": "C:\\Users\\seba\\Desktop\\TrabajoFinal\\TrabajoFinal\\Alumnos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TrabajoFinal\\Alumnos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T14:48:07.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\seba\\Desktop\\TrabajoFinal\\TrabajoFinal\\Form1.cs",
+              "RelativeDocumentMoniker": "TrabajoFinal\\Form1.cs",
+              "ToolTip": "C:\\Users\\seba\\Desktop\\TrabajoFinal\\TrabajoFinal\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TrabajoFinal\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T14:03:39.453Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
