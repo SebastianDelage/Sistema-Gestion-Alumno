@@ -28,19 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            dataGridView1 = new DataGridView();
+            dtg_verAlumnos = new DataGridView();
             panel1 = new Panel();
-            button2 = new Button();
-            button1 = new Button();
+            label1 = new Label();
+            btnReporteAlumno = new Button();
+            btnBuscarAlumno = new Button();
             label7 = new Label();
-            dateTimePicker1 = new DateTimePicker();
-            textBox4 = new TextBox();
+            dtpFecha = new DateTimePicker();
+            txtMatricula = new TextBox();
             label5 = new Label();
-            textBox3 = new TextBox();
+            txtDni = new TextBox();
             label4 = new Label();
-            textBox2 = new TextBox();
+            txtApellido = new TextBox();
             label2 = new Label();
-            textBox1 = new TextBox();
+            txtNombre = new TextBox();
             label3 = new Label();
             menuStrip1 = new MenuStrip();
             alumnosToolStripMenuItem = new ToolStripMenuItem();
@@ -52,36 +53,35 @@
             navegacionToolStripMenuItem = new ToolStripMenuItem();
             volverToolStripMenuItem = new ToolStripMenuItem();
             salirToolStripMenuItem = new ToolStripMenuItem();
-            label1 = new Label();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dtg_verAlumnos).BeginInit();
             panel1.SuspendLayout();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
-            // dataGridView1
+            // dtg_verAlumnos
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(56, 289);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(701, 135);
-            dataGridView1.TabIndex = 21;
+            dtg_verAlumnos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dtg_verAlumnos.Location = new Point(56, 289);
+            dtg_verAlumnos.Name = "dtg_verAlumnos";
+            dtg_verAlumnos.Size = new Size(701, 135);
+            dtg_verAlumnos.TabIndex = 21;
             // 
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(33, 63, 97);
             panel1.Controls.Add(label1);
-            panel1.Controls.Add(dataGridView1);
-            panel1.Controls.Add(button2);
-            panel1.Controls.Add(button1);
+            panel1.Controls.Add(dtg_verAlumnos);
+            panel1.Controls.Add(btnReporteAlumno);
+            panel1.Controls.Add(btnBuscarAlumno);
             panel1.Controls.Add(label7);
-            panel1.Controls.Add(dateTimePicker1);
-            panel1.Controls.Add(textBox4);
+            panel1.Controls.Add(dtpFecha);
+            panel1.Controls.Add(txtMatricula);
             panel1.Controls.Add(label5);
-            panel1.Controls.Add(textBox3);
+            panel1.Controls.Add(txtDni);
             panel1.Controls.Add(label4);
-            panel1.Controls.Add(textBox2);
+            panel1.Controls.Add(txtApellido);
             panel1.Controls.Add(label2);
-            panel1.Controls.Add(textBox1);
+            panel1.Controls.Add(txtNombre);
             panel1.Controls.Add(label3);
             panel1.Location = new Point(0, 24);
             panel1.Margin = new Padding(0);
@@ -89,34 +89,45 @@
             panel1.Size = new Size(800, 427);
             panel1.TabIndex = 22;
             // 
-            // button2
+            // label1
             // 
-            button2.BackColor = Color.FromArgb(46, 89, 134);
-            button2.FlatAppearance.BorderSize = 0;
-            button2.FlatAppearance.MouseDownBackColor = Color.FromArgb(46, 89, 134);
-            button2.FlatAppearance.MouseOverBackColor = Color.FromArgb(33, 63, 97);
-            button2.FlatStyle = FlatStyle.Popup;
-            button2.Location = new Point(182, 235);
-            button2.Name = "button2";
-            button2.Size = new Size(105, 33);
-            button2.TabIndex = 44;
-            button2.Text = "Reporte";
-            button2.UseVisualStyleBackColor = false;
+            label1.AutoSize = true;
+            label1.Font = new Font("Century Gothic", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.ForeColor = SystemColors.ButtonHighlight;
+            label1.Location = new Point(259, 14);
+            label1.Name = "label1";
+            label1.Size = new Size(250, 33);
+            label1.TabIndex = 45;
+            label1.Text = "Visualizar alumnos";
             // 
-            // button1
+            // btnReporteAlumno
             // 
-            button1.BackColor = Color.FromArgb(46, 89, 134);
-            button1.FlatAppearance.BorderSize = 0;
-            button1.FlatAppearance.MouseDownBackColor = Color.FromArgb(46, 89, 134);
-            button1.FlatAppearance.MouseOverBackColor = Color.FromArgb(33, 63, 97);
-            button1.FlatStyle = FlatStyle.Popup;
-            button1.Location = new Point(61, 235);
-            button1.Name = "button1";
-            button1.Size = new Size(105, 33);
-            button1.TabIndex = 43;
-            button1.Text = "Buscar";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
+            btnReporteAlumno.BackColor = Color.FromArgb(46, 89, 134);
+            btnReporteAlumno.FlatAppearance.BorderSize = 0;
+            btnReporteAlumno.FlatAppearance.MouseDownBackColor = Color.FromArgb(46, 89, 134);
+            btnReporteAlumno.FlatAppearance.MouseOverBackColor = Color.FromArgb(33, 63, 97);
+            btnReporteAlumno.FlatStyle = FlatStyle.Popup;
+            btnReporteAlumno.Location = new Point(182, 235);
+            btnReporteAlumno.Name = "btnReporteAlumno";
+            btnReporteAlumno.Size = new Size(105, 33);
+            btnReporteAlumno.TabIndex = 44;
+            btnReporteAlumno.Text = "Reporte";
+            btnReporteAlumno.UseVisualStyleBackColor = false;
+            // 
+            // btnBuscarAlumno
+            // 
+            btnBuscarAlumno.BackColor = Color.FromArgb(46, 89, 134);
+            btnBuscarAlumno.FlatAppearance.BorderSize = 0;
+            btnBuscarAlumno.FlatAppearance.MouseDownBackColor = Color.FromArgb(46, 89, 134);
+            btnBuscarAlumno.FlatAppearance.MouseOverBackColor = Color.FromArgb(33, 63, 97);
+            btnBuscarAlumno.FlatStyle = FlatStyle.Popup;
+            btnBuscarAlumno.Location = new Point(61, 235);
+            btnBuscarAlumno.Name = "btnBuscarAlumno";
+            btnBuscarAlumno.Size = new Size(105, 33);
+            btnBuscarAlumno.TabIndex = 43;
+            btnBuscarAlumno.Text = "Buscar";
+            btnBuscarAlumno.UseVisualStyleBackColor = false;
+            btnBuscarAlumno.Click += btnBuscarAlumno_Click;
             // 
             // label7
             // 
@@ -129,19 +140,19 @@
             label7.TabIndex = 42;
             label7.Text = "Fecha";
             // 
-            // dateTimePicker1
+            // dtpFecha
             // 
-            dateTimePicker1.Location = new Point(117, 170);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(223, 23);
-            dateTimePicker1.TabIndex = 41;
+            dtpFecha.Location = new Point(141, 170);
+            dtpFecha.Name = "dtpFecha";
+            dtpFecha.Size = new Size(213, 23);
+            dtpFecha.TabIndex = 41;
             // 
-            // textBox4
+            // txtMatricula
             // 
-            textBox4.Location = new Point(141, 126);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(150, 23);
-            textBox4.TabIndex = 38;
+            txtMatricula.Location = new Point(141, 126);
+            txtMatricula.Name = "txtMatricula";
+            txtMatricula.Size = new Size(150, 23);
+            txtMatricula.TabIndex = 38;
             // 
             // label5
             // 
@@ -154,12 +165,12 @@
             label5.TabIndex = 37;
             label5.Text = "Matricula";
             // 
-            // textBox3
+            // txtDni
             // 
-            textBox3.Location = new Point(141, 86);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(150, 23);
-            textBox3.TabIndex = 36;
+            txtDni.Location = new Point(141, 86);
+            txtDni.Name = "txtDni";
+            txtDni.Size = new Size(150, 23);
+            txtDni.TabIndex = 36;
             // 
             // label4
             // 
@@ -171,14 +182,13 @@
             label4.Size = new Size(36, 20);
             label4.TabIndex = 35;
             label4.Text = "DNI";
-            label4.Click += label4_Click;
             // 
-            // textBox2
+            // txtApellido
             // 
-            textBox2.Location = new Point(484, 127);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(150, 23);
-            textBox2.TabIndex = 34;
+            txtApellido.Location = new Point(484, 127);
+            txtApellido.Name = "txtApellido";
+            txtApellido.Size = new Size(150, 23);
+            txtApellido.TabIndex = 34;
             // 
             // label2
             // 
@@ -191,12 +201,12 @@
             label2.TabIndex = 33;
             label2.Text = "Apellido";
             // 
-            // textBox1
+            // txtNombre
             // 
-            textBox1.Location = new Point(484, 83);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(150, 23);
-            textBox1.TabIndex = 32;
+            txtNombre.Location = new Point(484, 83);
+            txtNombre.Name = "txtNombre";
+            txtNombre.Size = new Size(150, 23);
+            txtNombre.TabIndex = 32;
             // 
             // label3
             // 
@@ -208,7 +218,6 @@
             label3.Size = new Size(68, 20);
             label3.TabIndex = 31;
             label3.Text = "Nombre";
-            label3.Click += label3_Click;
             // 
             // menuStrip1
             // 
@@ -230,13 +239,13 @@
             // visualizarAlumnosToolStripMenuItem
             // 
             visualizarAlumnosToolStripMenuItem.Name = "visualizarAlumnosToolStripMenuItem";
-            visualizarAlumnosToolStripMenuItem.Size = new Size(180, 22);
+            visualizarAlumnosToolStripMenuItem.Size = new Size(172, 22);
             visualizarAlumnosToolStripMenuItem.Text = "Visualizar alumnos";
             // 
             // buscarToolStripMenuItem
             // 
             buscarToolStripMenuItem.Name = "buscarToolStripMenuItem";
-            buscarToolStripMenuItem.Size = new Size(180, 22);
+            buscarToolStripMenuItem.Size = new Size(172, 22);
             buscarToolStripMenuItem.Text = "Bucar alumno";
             // 
             // notasToolStripMenuItem
@@ -268,26 +277,15 @@
             // volverToolStripMenuItem
             // 
             volverToolStripMenuItem.Name = "volverToolStripMenuItem";
-            volverToolStripMenuItem.Size = new Size(106, 22);
+            volverToolStripMenuItem.Size = new Size(180, 22);
             volverToolStripMenuItem.Text = "Volver";
             volverToolStripMenuItem.Click += volverToolStripMenuItem_Click;
             // 
             // salirToolStripMenuItem
             // 
             salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            salirToolStripMenuItem.Size = new Size(106, 22);
+            salirToolStripMenuItem.Size = new Size(180, 22);
             salirToolStripMenuItem.Text = "Salir";
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Century Gothic", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.ForeColor = SystemColors.ButtonHighlight;
-            label1.Location = new Point(259, 14);
-            label1.Name = "label1";
-            label1.Size = new Size(250, 33);
-            label1.TabIndex = 45;
-            label1.Text = "Visualizar alumnos";
             // 
             // Alumnos
             // 
@@ -299,7 +297,7 @@
             Controls.Add(panel1);
             Name = "Alumnos";
             Text = "Alumnos";
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dtg_verAlumnos).EndInit();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             menuStrip1.ResumeLayout(false);
@@ -309,19 +307,19 @@
         }
 
         #endregion
-        private DataGridView dataGridView1;
+        private DataGridView dtg_verAlumnos;
         private Panel panel1;
-        private Button button2;
-        private Button button1;
+        private Button btnReporteAlumno;
+        private Button btnBuscarAlumno;
         private Label label7;
-        private DateTimePicker dateTimePicker1;
-        private TextBox textBox4;
+        private DateTimePicker dtpFecha;
+        private TextBox txtMatricula;
         private Label label5;
-        private TextBox textBox3;
+        private TextBox txtDni;
         private Label label4;
-        private TextBox textBox2;
+        private TextBox txtApellido;
         private Label label2;
-        private TextBox textBox1;
+        private TextBox txtNombre;
         private Label label3;
         private MenuStrip menuStrip1;
         private ToolStripMenuItem alumnosToolStripMenuItem;

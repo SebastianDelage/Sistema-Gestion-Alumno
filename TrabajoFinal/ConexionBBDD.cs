@@ -9,7 +9,7 @@ namespace TrabajoFinal
 {
     internal class ConexionBBDD
     {
-       // string cadena = "Data Source = 192.168.0.100; Database=u23; User Id = u23; Password=u23";
+       //string cadena = "Data Source = 192.168.0.100; Database=u23; User Id = u23; Password=u23";
         string cadena = "Data Source = DESKTOP-TS1BI4L\\SQLEXPRESS ; initial catalog= TrabajoFinal; Integrated Security=True";
 
 
@@ -36,7 +36,7 @@ namespace TrabajoFinal
             }
         }
 
-        public void Cerar() 
+        public void Cerrar() 
         {
             conectar.Close();
         }

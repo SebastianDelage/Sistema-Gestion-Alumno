@@ -12,6 +12,7 @@ namespace TrabajoFinal
 {
     public partial class Notas : Form
     {
+        private string usuario;
         public Notas()
         {
             InitializeComponent();
@@ -24,7 +25,7 @@ namespace TrabajoFinal
 
         private void volverToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form1 frm1 = new Form1();
+            Form1 frm1 = new Form1(usuario);
             this.Hide();
             DialogResult resultado = frm1.ShowDialog();
         }

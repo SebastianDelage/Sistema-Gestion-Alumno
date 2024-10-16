@@ -14,11 +14,13 @@ namespace TrabajoFinal
     public partial class Alumnos : Form
     {
         private ConexionBBDD conectar;
-        public Alumnos()
+        private string usuario;
+        public Alumnos(string usuario)
         {
             InitializeComponent();
             conectar = new ConexionBBDD();
-            CargarTabla();
+            this.usuario = usuario;
+            //CargarTabla();
 
         }
 
@@ -29,13 +31,13 @@ namespace TrabajoFinal
             SqlDataAdapter adapter = new SqlDataAdapter(consulta, conectar.Conexion);
             DataTable dt = new DataTable();
             adapter.Fill(dt);
-            dataGridView1.DataSource = dt;
-            conectar.Cerar();
+            dtg_verAlumnos.DataSource = dt;
+            conectar.Cerrar();
         }
 
         private void volverToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form1 frm1 = new Form1();
+            Form1 frm1 = new Form1(this.usuario);
             this.Hide();
             DialogResult resultado = frm1.ShowDialog();
         }
@@ -45,27 +47,19 @@ namespace TrabajoFinal
             this.Close();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnBuscarAlumno_Click(object sender, EventArgs e)
         {
-            conectar.Abrir();
-            string consulta = "ModificarAlumno";
-            SqlCommand comando = new SqlCommand(consulta);
-            comando.Parameters.AddWithValue("@Nombre", textBox1.Text);
-            comando.Parameters.AddWithValue("@matricula", textBox2.Text);
-            comando.Parameters.AddWithValue("@email", textBox3.Text);
-            comando.Parameters.AddWithValue("@telefono", textBox4.Text);
-
-            MessageBox.Show("modificado correctamente");
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
+            string consulta = "BuscarAlumno";
+            SqlCommand comando = new SqlCommand(consulta, conectar.Conexion);
+            comando.CommandType = CommandType.StoredProcedure;
+            comando.Parameters.AddWithValue("@nombre", txtNombre.Text);
+            comando.Parameters.AddWithValue("@apellido", txtApellido.Text);
+            comando.Parameters.AddWithValue("@dni", txtDni.Text);
+            comando.Parameters.AddWithValue("@matricula", txtMatricula.Text);
+            SqlDataAdapter adapter = new SqlDataAdapter(comando);
+            DataTable dt = new DataTable();
+            adapter.Fill(dt);
+            dtg_verAlumnos.DataSource= dt;
 
         }
     }

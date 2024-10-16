@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
-            button1 = new Button();
-            button2 = new Button();
+            btn_redireccionAulmnos = new Button();
+            btn_redireccionNotas = new Button();
             panel2 = new Panel();
-            dataGridView1 = new DataGridView();
-            label5 = new Label();
-            label4 = new Label();
+            dtg_Pofesorxmateria = new DataGridView();
+            lblNota = new Label();
+            lblFecha = new Label();
             label2 = new Label();
             label1 = new Label();
             menuStrip1 = new MenuStrip();
@@ -48,93 +48,97 @@
             salirToolStripMenuItem = new ToolStripMenuItem();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dtg_Pofesorxmateria).BeginInit();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(33, 63, 97);
-            panel1.Controls.Add(button1);
-            panel1.Controls.Add(button2);
+            panel1.Controls.Add(btn_redireccionAulmnos);
+            panel1.Controls.Add(btn_redireccionNotas);
             panel1.Location = new Point(0, 2);
             panel1.Name = "panel1";
             panel1.Size = new Size(159, 449);
             panel1.TabIndex = 1;
             // 
-            // button1
+            // btn_redireccionAulmnos
             // 
-            button1.FlatAppearance.BorderSize = 0;
-            button1.FlatAppearance.MouseDownBackColor = Color.FromArgb(33, 63, 97);
-            button1.FlatAppearance.MouseOverBackColor = Color.FromArgb(30, 70, 100);
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.ForeColor = SystemColors.ButtonHighlight;
-            button1.Location = new Point(0, 146);
-            button1.Name = "button1";
-            button1.Size = new Size(159, 38);
-            button1.TabIndex = 0;
-            button1.Text = "Alumnos";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            btn_redireccionAulmnos.FlatAppearance.BorderSize = 0;
+            btn_redireccionAulmnos.FlatAppearance.MouseDownBackColor = Color.FromArgb(33, 63, 97);
+            btn_redireccionAulmnos.FlatAppearance.MouseOverBackColor = Color.FromArgb(30, 70, 100);
+            btn_redireccionAulmnos.FlatStyle = FlatStyle.Flat;
+            btn_redireccionAulmnos.ForeColor = SystemColors.ButtonHighlight;
+            btn_redireccionAulmnos.Location = new Point(0, 146);
+            btn_redireccionAulmnos.Name = "btn_redireccionAulmnos";
+            btn_redireccionAulmnos.Size = new Size(159, 38);
+            btn_redireccionAulmnos.TabIndex = 0;
+            btn_redireccionAulmnos.Text = "Alumnos";
+            btn_redireccionAulmnos.UseVisualStyleBackColor = true;
+            btn_redireccionAulmnos.Click += button1_Click;
             // 
-            // button2
+            // btn_redireccionNotas
             // 
-            button2.FlatAppearance.BorderSize = 0;
-            button2.FlatAppearance.MouseDownBackColor = Color.FromArgb(33, 63, 97);
-            button2.FlatAppearance.MouseOverBackColor = Color.FromArgb(30, 70, 100);
-            button2.FlatStyle = FlatStyle.Flat;
-            button2.ForeColor = SystemColors.ButtonHighlight;
-            button2.Location = new Point(0, 249);
-            button2.Name = "button2";
-            button2.Size = new Size(159, 37);
-            button2.TabIndex = 1;
-            button2.Text = "Notas";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
+            btn_redireccionNotas.FlatAppearance.BorderSize = 0;
+            btn_redireccionNotas.FlatAppearance.MouseDownBackColor = Color.FromArgb(33, 63, 97);
+            btn_redireccionNotas.FlatAppearance.MouseOverBackColor = Color.FromArgb(30, 70, 100);
+            btn_redireccionNotas.FlatStyle = FlatStyle.Flat;
+            btn_redireccionNotas.ForeColor = SystemColors.ButtonHighlight;
+            btn_redireccionNotas.Location = new Point(0, 249);
+            btn_redireccionNotas.Name = "btn_redireccionNotas";
+            btn_redireccionNotas.Size = new Size(159, 37);
+            btn_redireccionNotas.TabIndex = 1;
+            btn_redireccionNotas.Text = "Notas";
+            btn_redireccionNotas.UseVisualStyleBackColor = true;
+            btn_redireccionNotas.Click += button2_Click;
             // 
             // panel2
             // 
             panel2.BackColor = Color.FromArgb(49, 66, 82);
-            panel2.Controls.Add(dataGridView1);
-            panel2.Controls.Add(label5);
-            panel2.Controls.Add(label4);
+            panel2.Controls.Add(dtg_Pofesorxmateria);
+            panel2.Controls.Add(lblNota);
+            panel2.Controls.Add(lblFecha);
             panel2.Controls.Add(label2);
             panel2.Location = new Point(158, 101);
             panel2.Name = "panel2";
             panel2.Size = new Size(642, 350);
             panel2.TabIndex = 13;
             // 
-            // dataGridView1
+            // dtg_Pofesorxmateria
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(220, 47);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(410, 290);
-            dataGridView1.TabIndex = 22;
+            dtg_Pofesorxmateria.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dtg_Pofesorxmateria.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
+            dtg_Pofesorxmateria.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dtg_Pofesorxmateria.Location = new Point(220, 47);
+            dtg_Pofesorxmateria.Name = "dtg_Pofesorxmateria";
+            dtg_Pofesorxmateria.ReadOnly = true;
+            dtg_Pofesorxmateria.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dtg_Pofesorxmateria.Size = new Size(410, 290);
+            dtg_Pofesorxmateria.TabIndex = 22;
             // 
-            // label5
+            // lblNota
             // 
-            label5.AutoSize = true;
-            label5.Font = new Font("Century Gothic", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label5.ForeColor = SystemColors.ButtonFace;
-            label5.Location = new Point(43, 165);
-            label5.Name = "label5";
-            label5.Size = new Size(77, 33);
-            label5.TabIndex = 21;
-            label5.Text = "Hora";
-            label5.Click += label5_Click;
+            lblNota.AutoSize = true;
+            lblNota.Font = new Font("Century Gothic", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblNota.ForeColor = SystemColors.ButtonFace;
+            lblNota.Location = new Point(43, 165);
+            lblNota.Name = "lblNota";
+            lblNota.Size = new Size(77, 33);
+            lblNota.TabIndex = 21;
+            lblNota.Text = "Hora";
+            lblNota.Click += label5_Click;
             // 
-            // label4
+            // lblFecha
             // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Century Gothic", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label4.ForeColor = SystemColors.ButtonHighlight;
-            label4.Location = new Point(43, 124);
-            label4.Name = "label4";
-            label4.Size = new Size(97, 33);
-            label4.TabIndex = 20;
-            label4.Text = "Fecha";
-            label4.Click += label4_Click;
+            lblFecha.AutoSize = true;
+            lblFecha.Font = new Font("Century Gothic", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblFecha.ForeColor = SystemColors.ButtonHighlight;
+            lblFecha.Location = new Point(43, 124);
+            lblFecha.Name = "lblFecha";
+            lblFecha.Size = new Size(97, 33);
+            lblFecha.TabIndex = 20;
+            lblFecha.Text = "Fecha";
+            lblFecha.Click += label4_Click;
             // 
             // label2
             // 
@@ -234,10 +238,11 @@
             Name = "Form1";
             Tag = "Materia";
             Text = "Form1";
+            Load += Form1_Load;
             panel1.ResumeLayout(false);
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dtg_Pofesorxmateria).EndInit();
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ResumeLayout(false);
@@ -246,13 +251,13 @@
 
         #endregion
         private Panel panel1;
-        private Button button2;
+        private Button btn_redireccionNotas;
         private Panel panel2;
         private Label label2;
-        private Label label5;
-        private Label label4;
-        private DataGridView dataGridView1;
-        private Button button1;
+        private Label lblNota;
+        private Label lblFecha;
+        private DataGridView dtg_Pofesorxmateria;
+        private Button btn_redireccionAulmnos;
         private Label label1;
         private MenuStrip menuStrip1;
         private ToolStripMenuItem alumnosToolStripMenuItem;
